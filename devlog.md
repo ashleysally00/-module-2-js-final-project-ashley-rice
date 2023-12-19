@@ -107,14 +107,17 @@ by counting the number of characters from the quote that the player typed in 60 
 Note: you need to have an event listener waiting for when the timer hits 60 seconds so it can trigger the function that calculates the WPM
 ….and dividing it by 5 (average size of a word, so all 5 characters in a row will count as a word).
 
-you need to count the characters in the string that the user typed in 60 seconds:
+You need to count the characters in the string that the user typed in 60 seconds:
 you can do that using the length property
 does the length property work on strings as well as arrays?
 It does.
 
+```
 const wordString = “ “;
 console.log(wordString.length)
 return wordString.length
+```
+
 Are spaces counted in strings?
 Everything is counted.
 <br>
