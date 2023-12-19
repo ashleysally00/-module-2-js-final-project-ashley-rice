@@ -211,7 +211,7 @@ return Math.floor((new Date() - startTime) / 1000);
 
 This takes care of the timer on the screen and makes it show the correct count
 as a whole number and start over (web dev simplified video).
-But need to get the end time.
+Still need to get the end time.
 
 ```
 startTime - timerTime = timeDiff;
