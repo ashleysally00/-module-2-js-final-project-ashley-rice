@@ -2,7 +2,7 @@
 
 #### Ashley Rice
 
-###### This FP began as: Speed Typing Car Race Game,Edited version is Let’s Go Driving! Quote Typing Game
+###### This FP began as: Speed Typing Car Race Game, Edited version is Let’s Go Driving! Quote Typing Game
 
 \*because the car just drives, it does not race
 
@@ -32,7 +32,7 @@ Class groups.
 My first 3 ideas were Netflix for dogs using OMDB key, todo list app, CLI game.
 Was browsing JS games to code.
 
-Decided on speed typing game,
+Decided on speed typing game.
 
 Found tutorials, thought about it.
 In my game, when you get a certain score, messages pop up.
