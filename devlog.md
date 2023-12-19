@@ -144,8 +144,7 @@ Working on formatting first few Drive docs, uploaded them to Learn Worlds to mee
 
 Worked on coding functions for different parts of my game but it is still kind of a major mess (it feels like!).
 <br>
-\
-\
+
 **Sunday, Dec 17,**
 
 **7:00AM-9:00AM,**
@@ -192,7 +191,10 @@ const numberOfWords = numberOfCharacters / 5;
 Need to integrate the timing:
 how long it took the player to finish the quote = endTime-startTime
 
+```
 let startTime;
+```
+
 The following I got from webdev simplified youtube video:
 
 ```
@@ -208,7 +210,7 @@ return Math.floor((new Date() - startTime) / 1000);
 ```
 
 This takes care of the timer on the screen and makes it show the correct count
-As a whole number and start over (web dev simplified video)
+as a whole number and start over (web dev simplified video)
 But need to get the end time;
 
 ```
