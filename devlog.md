@@ -9,6 +9,7 @@
 https://github.com/ashleysally00/module-2-js-final-project-ashley-rice
 \
 \
+\
 **8 Tuesday Dec 5,**
 I was trying to figure out what my project would be for the first entries.
 
@@ -60,7 +61,7 @@ Need to look at the Fetch function.
 
 **5:30-7:30PM,**
 
-Watched people present
+Watched people present.
 Did more research, thinking.
 Should I put an array of quotes inside my code to pull quotes instead of using the external site link?
 <br>
