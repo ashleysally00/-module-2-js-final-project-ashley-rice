@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+body,
+.quote-input {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3.5rem;
+  margin-bottom: 2.8rem;
+}
+
+.container {
+  background-color: lightblue;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 700px;
+  max-width: 90%;
+}
+
+.timer {
+  top: 2rem;
+  font-size: 3rem;
+  color: lightblue;
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+#carDiv {
+  width: 3rem;
+  height: 1rem;
+  position: absolute;
+  z-index: 2;
+  margin-top: 11rem;
+  margin-left: 0.4rem;
+}
+
+.container1 {
+  overflow: hidden;
+}
+
+.infinite-scrolling {
+  background: url("AshleyRoad.png") repeat-x;
+  height: 305px;
+  width: 5760px; /* The image width times 3 */
+  /* got this scroll from Eleftheria Batsou's medium article  */
+
+  animation: slide 60s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1920px, 0, 0); /* The image width */
+  }
+}
+
+.quote-display {
+  margin-bottom: 1rem;
+  margin-left: calc(1rem + 2px);
+  margin-right: calc(1rem + 2px);
+}
+
+.quote-input {
+  background-color: transparent;
+  border: 2px solid rgb(136, 171, 182);
+  outline: none;
+  width: 100%;
+  height: 8rem;
+  resize: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+.quote-input:focus {
+  border: inset black;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
