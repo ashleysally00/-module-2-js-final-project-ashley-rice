@@ -20,6 +20,7 @@ Brainstormed project topics, watched videos on simple JS apps.
 https://youtu.be/be9sHQ7xqo0?si=tmvvjyGfmR9nqnK3
 
 <br>
+<br>
 
 **Wednesday Dec 6,**
 
@@ -36,8 +37,7 @@ In my game, when you get a certain score, messages pop up.
 There might be 3 messages for 3 levels.
 Talked to people about ideas again.
 <br>
-\
-\
+<br>
 
 **Thursday, Dec. 7,**
 
@@ -62,6 +62,7 @@ I need to review promises, async and await.
 Need to look at the Fetch function.
 \
 \
+\
 **Monday, Dec. 11,**
 
 **5:30-7:30PM,**
@@ -69,6 +70,8 @@ Need to look at the Fetch function.
 Watched people present.
 Did more research, thinking.
 Should I put an array of quotes inside my code to pull quotes instead of using the external site link?
+<br>
+<br>
 <br>
 
 **Tuesday, Dec. 12,**
@@ -267,5 +270,3 @@ was not floating in the sky above the road.
 I played around with the speed but realized that this for now will just be a driving game, not a racing game.
 
 I got a lot of help from the videos I mentioned both in this devlog and inside the code. They were very helpful and great.
-
--
