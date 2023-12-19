@@ -100,11 +100,11 @@ Wrote the code in plain words to think it through.
 Added to that.
 
 When the player completes accurately typing a quote,
-And adds a period…
+and adds a period…
 you need to calculate and return the speed of accuracy
 by counting the number of characters from the quote that the player typed in 60 seconds…
 
-note: you need to have an event listener waiting for when the timer hits 60 seconds so it can trigger the function that calculates the WPM
+Note: you need to have an event listener waiting for when the timer hits 60 seconds so it can trigger the function that calculates the WPM
 ….and dividing it by 5 (average size of a word, so all 5 characters in a row will count as a word).
 
 you need to count the characters in the string that the user typed in 60 seconds:
