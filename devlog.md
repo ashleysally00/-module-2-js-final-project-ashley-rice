@@ -172,14 +172,14 @@ https://www.tutorialspoint.com/how-to-create-a-moving-div-using-javascript#:~:te
 
 **12:00PM-1:40PM,**
 
-The car div needs to be moving based on + adding player’s typing speed to starting speed
+The car div needs to be moving based on + adding player’s typing speed to starting speed.
 
-Need to add in function to calculate player’s typing speed:
-Player’s typing speed is words per minute:
+Need to add in a function to calculate player’s typing speed:
+player’s typing speed is words per minute:
 Need to calculate the number of words:
 
 Need to calculate number of characters in the quote:
-Need to not count spaces
+Need to not count spaces.
 
 Here is what I did:
 
