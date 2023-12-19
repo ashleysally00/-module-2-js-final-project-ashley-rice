@@ -113,7 +113,7 @@ function calculateTypingSpeed(startTime, endTime, numberOfCharacters) {
 }
 
 function moveCarDivForward(typingSpeed) {
-  const pixelsPerWord = 0.2;
+  const pixelsPerWord = 1;
   const distanceToAdd = pixelsPerWord * (typingSpeed * 10);
   const carDiv = document.getElementById("carDiv");
   const currentLeft = parseInt(carDiv.style.left) || 0;
