@@ -36,6 +36,8 @@ In my game, when you get a certain score, messages pop up.
 There might be 3 messages for 3 levels.
 Talked to people about ideas again.
 <br>
+\
+\
 
 **Thursday, Dec. 7,**
 
@@ -43,6 +45,9 @@ Talked to people about ideas again.
 
 Set up files. Researched WPM functions and math. Researched how to make messages pop up based on scores.
 Am going to make it one player.
+\
+\
+\
 \
 \
 **Friday, Dec. 8,**
@@ -70,6 +75,8 @@ Should I put an array of quotes inside my code to pull quotes instead of using t
 
 Didn’t work on FP today. Worked on Udemy and FCC.
 <br>
+\
+\
 **Thursday, Dec 14,**
 
 **11:00am - 12:30pm,**
@@ -108,6 +115,8 @@ return wordString.length
 Are spaces counted in strings?
 Everything is counted.
 <br>
+\
+\
 **Thursday, Dec 15,**
 
 **2::00PM - 2:45pm,**
@@ -121,6 +130,8 @@ Function for when the whole quote is typed in correctly:
 It will include white spaces
 Or change to regex.
 <br>
+\
+\
 **Friday, Dec 15,**
 
 **3:00PM-7PM,**
@@ -129,6 +140,8 @@ Working on formatting first few Drive docs, uploaded them thru Learn Worlds so t
 .
 Worked on coding functions for different parts of the game but it’s kind of a major mess (it feels like!).
 <br>
+\
+\
 **Sunday, Dec 17,**
 
 **7:00AM-9:00AM,**
@@ -231,6 +244,8 @@ It also helped me update my function to calculate and account for the new left v
 The car is moving.
 It is updating.
 <br>
+\
+\
 **Tuesday, Dec 19,**
 **5:00AM,**
 
@@ -251,6 +266,6 @@ was not floating in the sky above the road.
 
 I played around with the speed but realized that this for now will just be a driving game, not a racing game.
 
-I got a lot of help from the videos I mentioned both in this devlog and inside the code. They were very helpful, fun and great.
+I got a lot of help from the videos I mentioned both in this devlog and inside the code. They were very helpful and great.
 
 -
