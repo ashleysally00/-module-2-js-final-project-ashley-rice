@@ -65,7 +65,7 @@ Need to look at the Fetch function.
 \
 **Monday, Dec. 11,**
 
-**5:30-7:30PM,**
+**5:30PM-7:30PM,**
 
 Watched people present.
 Did more research, thinking.
@@ -82,7 +82,7 @@ Didn’t work on FP today. Worked on Udemy and FCC.
 \
 **Thursday, Dec 14,**
 
-**11:00am - 12:30pm,**
+**11:00AM - 12:30PM,**
 
 Researched, tried different things.
 
@@ -123,7 +123,7 @@ Everything is counted.
 \
 **Thursday, Dec 15,**
 
-**2::00PM - 2:45pm,**
+**2:00PM - 2:45PM,**
 
 Function for when the whole quote is typed in correctly:
 
@@ -138,7 +138,7 @@ Or just change it to regex later.
 \
 **Friday, Dec 15,**
 
-**3:00PM-7PM,**
+**3:00PM-7:00PM,**
 
 Working on formatting first few Drive docs, uploaded them to Learn Worlds to meet draft deadline.
 
@@ -250,6 +250,7 @@ It is updating.
 <br>
 \
 \
+
 **Tuesday, Dec 19,**
 **5:00AM,**
 
