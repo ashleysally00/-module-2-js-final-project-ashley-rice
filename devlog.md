@@ -7,7 +7,8 @@
 \*because the car just drives, it does not race
 
 https://github.com/ashleysally00/module-2-js-final-project-ashley-rice
-
+\
+\
 **8 Tuesday Dec 5,**
 I was trying to figure out what my project would be for the first entries.
 
@@ -16,6 +17,8 @@ I was trying to figure out what my project would be for the first entries.
 Brainstormed project topics, watched videos on simple JS apps.
 
 https://youtu.be/be9sHQ7xqo0?si=tmvvjyGfmR9nqnK3
+
+<br>
 
 **Wednesday Dec 6,**
 
@@ -31,6 +34,7 @@ Found tutorials, thought about it.
 In my game, when you get a certain score, messages pop up.
 There might be 3 messages for 3 levels.
 Talked to people about ideas again.
+<br>
 
 **Thursday, Dec. 7,**
 
@@ -38,7 +42,8 @@ Talked to people about ideas again.
 
 Set up files. Researched WPM functions and math. Researched how to make messages pop up based on scores.
 Am going to make it one player.
-
+\
+\
 **Friday, Dec. 8,**
 
 **2:00PM-5:00PM,**
@@ -49,7 +54,8 @@ I tried coding the basics of some things to see how they work and if I understan
 You can use calc() to match alignment between elements in the box.
 I need to review promises, async and await.
 Need to look at the Fetch function.
-
+\
+\
 **Monday, Dec. 11,**
 
 **5:30-7:30PM,**
@@ -57,12 +63,13 @@ Need to look at the Fetch function.
 Watched people present
 Did more research, thinking.
 Should I put an array of quotes inside my code to pull quotes instead of using the external site link?
+<br>
 
 **Tuesday, Dec. 12,**
 
 Didn’t work on FP today. Worked on Udemy and FCC.
-
-Thursday, Dec 14,
+<br>
+**Thursday, Dec 14,**
 
 **11:00am - 12:30pm,**
 
@@ -99,7 +106,7 @@ console.log(wordString.length)
 return wordString.length
 Are spaces counted in strings?
 Everything is counted.
-
+<br>
 **Thursday, Dec 15,**
 
 **2::00PM - 2:45pm,**
@@ -112,7 +119,7 @@ Function for when the whole quote is typed in correctly:
 
 It will include white spaces
 Or change to regex.
-
+<br>
 **Friday, Dec 15,**
 
 **3:00PM-7PM,**
@@ -120,7 +127,7 @@ Or change to regex.
 Working on formatting first few Drive docs, uploaded them thru Learn Worlds so that I can meet deadline
 .
 Worked on coding functions for different parts of the game but it’s kind of a major mess (it feels like!).
-
+<br>
 **Sunday, Dec 17,**
 
 **7:00AM-9:00AM,**
@@ -222,7 +229,7 @@ Found the culprit. The move left was not moving left. If I typed it in manually 
 It also helped me update my function to calculate and account for the new left value. I did some more debugging,
 The car is moving.
 It is updating.
-
+<br>
 **Tuesday, Dec 19,**
 **5:00AM,**
 
