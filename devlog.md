@@ -12,6 +12,7 @@ https://github.com/ashleysally00/module-2-js-final-project-ashley-rice
 \
 **Tuesday Dec 5,**
 <br>
+<br>
 I was trying to figure out what my project would be for the first entries.
 
 **7:00AM-8:00AM,**
