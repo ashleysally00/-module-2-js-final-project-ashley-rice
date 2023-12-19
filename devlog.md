@@ -132,7 +132,7 @@ Function for when the whole quote is typed in correctly:
 ```
 
 It will include white spaces
-Or change to regex.
+Or just change it to regex later.
 <br>
 \
 \
@@ -140,9 +140,9 @@ Or change to regex.
 
 **3:00PM-7PM,**
 
-Working on formatting first few Drive docs, uploaded them thru Learn Worlds so that I can meet deadline
-.
-Worked on coding functions for different parts of the game but it’s kind of a major mess (it feels like!).
+Working on formatting first few Drive docs, uploaded them to Learn Worlds to meet draft deadline.
+
+Worked on coding functions for different parts of my game but it is still kind of a major mess (it feels like!).
 <br>
 \
 \
