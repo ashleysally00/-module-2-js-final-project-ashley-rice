@@ -131,8 +131,8 @@ Function for when the whole quote is typed in correctly:
 //to render a new quote if (correct) renderNewQuote(); // I need to add another function to: if(correct) bc if the statement / is correct that means the player has finished typing //make a function to count the characters in the quote that //was rendered //then divide by 5 to get number of typed words // then divide by 60 to get WPM //;
 ```
 
-It will include white spaces
-Or just change it to regex later.
+It will include white spaces, or
+change it to regex later.
 <br>
 \
 \
