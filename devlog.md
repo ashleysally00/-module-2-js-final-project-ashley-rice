@@ -50,8 +50,6 @@ Am going to make it one player.
 \
 \
 \
-\
-\
 **Friday, Dec. 8,**
 
 **2:00PM-5:00PM,**
