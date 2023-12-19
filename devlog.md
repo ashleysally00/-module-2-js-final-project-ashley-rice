@@ -250,8 +250,7 @@ It also helped me update my function to calculate and account for the new left v
 The car is moving.
 It is updating.
 <br>
-\
-\
+<br>
 
 **Tuesday, Dec 19,**
 **5:00AM,**
