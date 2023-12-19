@@ -26,7 +26,7 @@ https://youtu.be/be9sHQ7xqo0?si=tmvvjyGfmR9nqnK3
 
 **Wednesday Dec 6,**
 
-**6:30PM-7:30PM:**
+**6:30PM-7:30PM,**
 
 Class groups.
 My first 3 ideas were Netflix for dogs using OMDB key, todo list app, CLI game.
