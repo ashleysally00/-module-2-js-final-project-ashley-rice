@@ -102,6 +102,7 @@ h1 {
 
 .container1 {
   overflow: hidden;
+  margin-bottom: 2rem;
 }
 
 .infinite-scrolling {
