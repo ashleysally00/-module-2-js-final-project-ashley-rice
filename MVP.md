@@ -1,7 +1,5 @@
 # Minimum Viable Project Outline
 
-####Ashley Rice
-
 - **Outline for the MVP (Minimum Viable Product/Project)**
 
   - My FP started out as Speed Typing Car Race Game and turned into Let's Go Driving! A Quote Typing Game based on what happened during the creative process
@@ -60,3 +58,5 @@ Asynchronous Programming when the game uses async and await to get new random qu
 
 - Choose which car you drive
 - Choose who or what you are racing
+
+Ashley Rice
