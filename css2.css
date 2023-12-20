@@ -12,6 +12,12 @@ body {
 body,
 .quote-input {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+}
+
+body,
+#quote-Display {
+  font-size: 1.6rem;
 }
 
 h1 {
@@ -43,8 +49,9 @@ h1 {
   margin-bottom: 2%;
   background-color: lightsteelblue;
   height: 3rem;
-  width: 6rem;
+  width: 6.7rem;
   border-radius: 7%;
+  font-size: 1.1rem;
 }
 
 /* The Modal (background) from W3 schools */
