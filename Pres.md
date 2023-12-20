@@ -9,7 +9,7 @@
 
 - I did figure out what happens when your car gets to the right side of the screen while the timer is still going and the speed should be too (it disappears).
 
-- I did not want to make it come out again starting on the left side again, though!
+- I did not want to make it come out again starting on the left side, though!
 
 - I would like to figure out how to make the car be infinitely scrolling like the road so it still seems like it keeps slowing down or speeding up (but without ever hitting the right hand side).
 
