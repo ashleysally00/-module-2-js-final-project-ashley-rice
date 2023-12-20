@@ -25,7 +25,7 @@
   1.  Find how to make a timer starting at 0 in JS
   1.  Find how to check what the player is typing
       and see if it matches the quote
-      1 Find how to show the player their errors
+  1.  Find how to show the player their errors
 
   **I figured out how to do all these things watching the webdev video, so I used it as a code along to learn everything I forgot about asynch again**
 
