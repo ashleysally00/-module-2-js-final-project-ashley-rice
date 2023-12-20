@@ -272,3 +272,10 @@ was not floating in the sky above the road.
 I played around with the speed but realized that this for now will just be a driving game, not a racing game.
 
 I got a lot of help from the videos I mentioned both in this devlog and inside the code. They were very helpful and great.
+<br>
+<br>
+
+**Wednesday, Dec 19,**
+**5:00AM,**
+
+Added a modal from W3Schools with directions on how to play.
