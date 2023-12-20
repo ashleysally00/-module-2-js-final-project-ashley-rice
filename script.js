@@ -4,6 +4,32 @@ const quoteInputElement = document.getElementById("quoteInput");
 const timerElement = document.getElementById("timer");
 let typingSpeed;
 
+// Get the modal from W3 schools
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function () {
+  modal.style.display = "block";
+};
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+
 quoteInputElement.addEventListener("input", () => {
   const arrayQuote = quoteDisplayElement.querySelectorAll("span");
   const arrayValue = quoteInputElement.value.split("");
@@ -40,7 +66,7 @@ quoteInputElement.addEventListener("input", () => {
   }
 });
 
-//get a random quote from the site, send it back, add it
+//get a random quote from the site, send it back, add it: from Web dev video
 function getRandomQuote() {
   return fetch(RANDOM_QUOTE_API_URL)
     .then((response) => response.json())
@@ -94,6 +120,8 @@ function getTimerTime() {
 // const timeDiff = startTime - getTimerTime;
 
 renderNewQuote();
+
+//remove white spaces from character count
 
 const numberOfCharacters = quoteInputElement.value.trim().split(/\s+/).length;
 const numberOfWords = numberOfCharacters / 5;
