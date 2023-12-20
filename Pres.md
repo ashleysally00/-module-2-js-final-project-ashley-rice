@@ -1,4 +1,4 @@
-#JS Project Part 10&11 - Presentation
+# JS Project Part 10 and 11- Presentation
 
 - My project topic is building a speed typing game that tested people’s WPM.
 
