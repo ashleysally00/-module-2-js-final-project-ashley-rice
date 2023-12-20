@@ -14,3 +14,8 @@
 - I would like to figure out how to make the car be infinitely scrolling like the road but so it still seems to be always slowing down or speeding up (but without ever hitting the right hand side).
 
 - I think the answer is probably to use parallax scrolling in a game where the background goes at a different speed. I would need to figure that out!
+
+- I would also want to add really short quotes or single words to type that pop up every ten seconds in a level-up round so you can answer quickly and speed it up faster to make it more fun
+
+- Choose which car you drive
+- Choose who or what you are racing against
