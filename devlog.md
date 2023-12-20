@@ -257,7 +257,6 @@ It is updating.
 
 Medium article to make a scrolling road:
 https://eleftheriabatsou.medium.com/css-tutorial-create-an-infinite-scrolling-background-923c3139f4a5
-Helicopter
 
 Background animation, car:
 https://www.youtube.com/watch?v=j23vJuc-fV4
