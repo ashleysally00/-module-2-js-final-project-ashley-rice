@@ -158,4 +158,4 @@ function moveCarDivForward(typingSpeed) {
 
 //   carDiv.style.left = parseInt(carDiv.style.left) || 0 + distanceToAdd + "px";
 // }
-setTimeout(() => moveCarDivForward(typingSpeed), typingSpeed * 1000);
+// setTimeout(() => moveCarDivForward(typingSpeed), typingSpeed * 1000);
