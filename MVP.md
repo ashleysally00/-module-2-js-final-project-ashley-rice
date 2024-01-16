@@ -30,7 +30,7 @@
 
   **I figured out how to do all these things watching the webdev video, so I used it as a code along to learn everything I forgot about asynch again**
 
-**My functional outline just built on the above to spin it like this:**
+**My functional outline built on the above. Then I edited it like this:**
 
 1.  Find how to make WPM speed the car up
 2.  The best way to calculate WPM based on what I want to do with it and the car
