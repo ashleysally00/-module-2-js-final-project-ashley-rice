@@ -3,7 +3,7 @@
 - **Outline for the MVP (Minimum Viable Product/Project)**
 
   - My FP started out as Speed Typing Car Race Game and turned into Let's Go Driving! A Quote Typing Game based on what happened during the creative process
-  - **MY UI Outling started out like this:**
+  - **MY UI Outline started out like this:**
 
     1. Build a box where you bring in a random quote from an API
     2. Create a box for a player to type in the quote
