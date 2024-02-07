@@ -4,7 +4,7 @@ The first part of this game, including the timer, the typing box, the red and gr
 
 I added a car and made the car move right based on the speed of the player typing in the quote correctly and designed a usable interface for it.
 
-This is an MVP and not a built out game. 
+This is an MVP and not a built out-game. 
 
 Here's a link to the wiki describing my MVP process:
 
