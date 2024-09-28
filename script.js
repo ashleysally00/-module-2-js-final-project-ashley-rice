@@ -1,3 +1,4 @@
+
 // Function to load a random quote from the local quotes.json file
 // Constants to access DOM elements
 const quoteDisplayElement = document.getElementById("quoteDisplay");
@@ -127,5 +128,6 @@ function moveCarDivForward(typingSpeed) {
 window.onload = function () {
   renderNewQuote();
 };
+
 
 
