@@ -1,3 +1,5 @@
+Play the [Let's Go Driving game online here!](https://ashleysally00.github.io/lets-go-driving-speed-typing-game/)
+
 Let's go driving is a speed typing game where you copy quotes into a box as quickly and accurately as you can to make the car move forward based on your speed.
 
 The first part of this game, including the timer, the typing box, the red and green text, and the fetching the quote I got from coding along with a web dev simplified speed typing game.
