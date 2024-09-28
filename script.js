@@ -1,4 +1,5 @@
-const RANDOM_QUOTE_API_URL = "http://api.quotable.io/random";
+// Function to load a random quote from the local quotes.json file
+// Constants to access DOM elements
 const quoteDisplayElement = document.getElementById("quoteDisplay");
 const quoteInputElement = document.getElementById("quoteInput");
 const timerElement = document.getElementById("timer");
@@ -6,11 +7,7 @@ let typingSpeed;
 
 // Get the modal from W3 schools
 var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
 var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
@@ -30,6 +27,7 @@ window.onclick = function (event) {
   }
 };
 
+// Event listener to handle typing input
 quoteInputElement.addEventListener("input", () => {
   const arrayQuote = quoteDisplayElement.querySelectorAll("span");
   const arrayValue = quoteInputElement.value.split("");
@@ -52,27 +50,29 @@ quoteInputElement.addEventListener("input", () => {
   });
 
   if (correct) {
-    typingSpeed = calculateTypingSpeed(
-      startTime,
-      new Date(),
-      numberOfCharacters
-    );
+    typingSpeed = calculateTypingSpeed(startTime, new Date(), numberOfCharacters);
     console.log("Typing Speed:", typingSpeed);
-    // Move the car every time the player finishes typing a quote correctly
     moveCarDivForward(typingSpeed);
-    //call the function to render new quote
     renderNewQuote();
-    console.log(typingSpeed);
   }
 });
 
-//get a random quote from the site, send it back, add it: from Web dev video
-function getRandomQuote() {
-  return fetch(RANDOM_QUOTE_API_URL)
-    .then((response) => response.json())
-    .then((data) => data.content);
+// Function to load a random quote from the local quotes.json file
+async function getRandomQuote() {
+  try {
+    const response = await fetch('quotes.json');  // Correct path, assuming quotes.json is in the same folder
+    const quotes = await response.json();
+    
+    // Pick a random quote from the array
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    return quotes[randomIndex].quote;
+  } catch (error) {
+    console.error('Error fetching the quote:', error);
+    return "Error loading quote.";
+  }
 }
 
+// Function to render a new quote on the screen
 async function renderNewQuote() {
   const quote = await getRandomQuote();
   quoteDisplayElement.innerHTML = "";
@@ -85,61 +85,34 @@ async function renderNewQuote() {
   startTimer();
 }
 
-//start the time counting up from 0
+// Timer and game logic
 let startTime;
-let intervalId; // Declare a variable to store the interval ID globally
+let intervalId;
 
 function startTimer() {
   timerElement.innerText = 0;
   startTime = new Date();
-
-  // Clear the previous interval, if any
   clearInterval(intervalId);
-
-  // Start a new interval
   intervalId = setInterval(() => {
-    timer.innerText = getTimerTime();
+    timerElement.innerText = getTimerTime();
     moveCarDivForward(typingSpeed);
-  }, 1000);
+  }, 1000);  // No 'eval' here, directly using function
 }
 
-// function startTimer() {
-//   timerElement.innerText = 0;
-//   startTime = new Date();
-//   setInterval(() => {
-//     timer.innerText = getTimerTime();
-//     //move the carDiv forward every interval by adding the Typing speed px
-//     moveCarDivForward(typingSpeed);
-//   }, 1000);
-// }
-//get the time from the timer and round it down to a whole number
 function getTimerTime() {
   return Math.floor((new Date() - startTime) / 1000);
 }
 
-// const timeDiff = startTime - getTimerTime;
-
-renderNewQuote();
-
-//remove white spaces from character count
-
+// Calculate typing speed
 const numberOfCharacters = quoteInputElement.value.trim().split(/\s+/).length;
-const numberOfWords = numberOfCharacters / 5;
 
-//move the carDiv based on the typing speed for that quote
-// moveCarDivForward(typingSpeed);
-
-//reset start time for next quote, when user hasn't typed anything yet
-
-// const carInitialSpeed = 10;
-const endTime = new Date();
 function calculateTypingSpeed(startTime, endTime, numberOfCharacters) {
-  //convert ms to minutes
   const timeDiff = (endTime - startTime) / 60000;
   const wordsPerMinute = numberOfCharacters / timeDiff;
   return wordsPerMinute;
 }
 
+// Move the car div forward based on typing speed
 function moveCarDivForward(typingSpeed) {
   const pixelsPerWord = 1;
   const distanceToAdd = pixelsPerWord * (typingSpeed * 10);
@@ -150,12 +123,9 @@ function moveCarDivForward(typingSpeed) {
   carDiv.style.left = newLeft + "px";
 }
 
-// function moveCarDivForward(typingSpeed) {
-//   const pixelsPerWord = 10;
-//   const distanceToAdd = pixelsPerWord;
-//   const carDiv = document.getElementById("carDiv");
-//   console.log("Moving Car:", typingSpeed);
+// window.onload to start the game after the page loads
+window.onload = function () {
+  renderNewQuote();
+};
 
-//   carDiv.style.left = parseInt(carDiv.style.left) || 0 + distanceToAdd + "px";
-// }
-// setTimeout(() => moveCarDivForward(typingSpeed), typingSpeed * 1000);
+
