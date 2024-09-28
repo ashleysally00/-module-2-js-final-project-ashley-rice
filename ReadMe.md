@@ -1,6 +1,6 @@
 Play the [Let's Go Driving game online here!](https://ashleysally00.github.io/lets-go-driving-speed-typing-game/)
 
-[textable link](https://tinyurl.com/driving-by-Ashley) so you want to send it to someone else if they want to play
+[textable link](https://tinyurl.com/driving-by-Ashley) so you can send it to someone else if they want to play
 
 Let's go driving is a speed typing game where you copy quotes into a box as quickly and accurately as you can to make the car move forward based on your speed.
 
