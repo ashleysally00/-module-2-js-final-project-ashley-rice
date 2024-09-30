@@ -8,6 +8,8 @@ The first part of this game, including the timer, the typing box, the red and gr
 
 I added the functionality for a car in JS and made the car move forward based on the speed of the player typing in the quote correctly. Then I created a usable visual interface for it.
 
+I had been using a quote API for the random quote part of the game, but that site recently shut down. So I made a json file and put 150 inspiring quotes in it and linked to that as the source of quotes instead.
+
  Here's a link to the wiki describing my MVP process:
 
 https://github.com/ashleysally00/module-2-js-final-project-ashley-rice/wiki
